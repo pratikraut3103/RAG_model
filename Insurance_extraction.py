@@ -124,9 +124,9 @@ if __name__ == '__main__':
         my_rag.chunking_and_preprocessing(seperators=["\n\n", "\n"], chunk_size=1000)
         my_rag.generating_embeddings_storing(embedding_folder)
 
-    question = input("Have you already extracted data from pdf? (y/n)")
+    question = input("Have you already extracted data from pdf? (y/n) \n")
     if question == "y":
-        input_folder = input("Which pdf would you like to query? \n 1. Basispaket+WeitBlick.pdf, 2. pa_d_1006_iii_11_211.pdf. \n Press 1 or 2")
+        input_folder = input("Which pdf would you like to query? \n 1. Basispaket+WeitBlick.pdf, 2. pa_d_1006_iii_11_211.pdf. \n Press 1 or 2 \n")
         if input_folder == "1":
             retrieving_answers(embedding_folder="Basispaket+WeitBlick")
         if input_folder == "2":
@@ -134,7 +134,7 @@ if __name__ == '__main__':
 
     else:
         input_folder = input(
-            "Which pdf would you like generate embeddings and ask question? \n 1. Basispaket+WeitBlick.pdf, 2. pa_d_1006_iii_11_211.pdf. \n Press 1 or 2")
+            "Which pdf would you like generate embeddings and ask question? \n 1. Basispaket+WeitBlick.pdf, 2. pa_d_1006_iii_11_211.pdf. \n Press 1 or 2 \n")
 
         if input_folder == "1":
             generate_embeddings_storing("Basispaket+WeitBlick.pdf")
