@@ -6,7 +6,7 @@ This project involves creating a Retrieval-Augmented Generation (RAG) model that
 ## Prerequisites
 
 - Python 3.6 or higher
-- Necessary API keys for Google and Groq
+- Necessary API keys for Google Gemini and Groq
 
 ## Setup
 
