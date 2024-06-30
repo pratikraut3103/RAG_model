@@ -13,7 +13,7 @@ This project involves creating a Retrieval-Augmented Generation (RAG) model that
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/rag-german-contracts.git
+    git clone https://github.com/pratikraut3103/RAG_model.git
     cd rag-german-contracts
     ```
 
