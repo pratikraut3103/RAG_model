@@ -27,7 +27,7 @@ This project involves creating a Retrieval-Augmented Generation (RAG) model that
 
     ```json
     {
-        "GOOGLE_API_KEY": "your_google_api_key",
+        "GOOGLE_API_KEY": "your_gemini_api_key",
         "groq_api_key": "your_groq_api_key"
     }
     ```
