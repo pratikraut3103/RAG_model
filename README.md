@@ -14,7 +14,7 @@ This project involves creating a Retrieval-Augmented Generation (RAG) model that
 
     ```bash
     git clone https://github.com/pratikraut3103/RAG_model.git
-    cd rag-german-contracts
+    cd RAG_model
     ```
 
 2. Install the required packages:
